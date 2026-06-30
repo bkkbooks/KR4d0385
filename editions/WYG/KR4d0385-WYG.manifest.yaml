@@ -1,0 +1,68 @@
+canonical_identifier: bkk:krp/KR4d0385/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR4d0385/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 北遊集
+  date: '2015-08-25 00:07:01.277846'
+  source:
+    repository: kanripo
+    path: KR4d0385
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR4d0385_000-WYG.yaml, hash: 'sha256:243028372f6d4a10a466db87ca7d080b1a0aa5b0a3f64392e83baba015bd182c'}
+  - {seq: 1, filename: KR4d0385_001-WYG.yaml, hash: 'sha256:f83ec50d1b0cc5c56b0867dcbaf6216c3ef96a5a25e1a8944265e82a96311ec7'}
+  - {seq: 2, filename: KR4d0385_002-WYG.yaml, hash: 'sha256:6a854e55b0090e03ad53ebd82ea0bd865d441f6437395a1a866a810fd489eceb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4d0385_000-WYG.markers.yaml, hash: 'sha256:6899cd0f3032494d5723d7d7ec9203d64301ad03ddbda3645e847313e0583022'}
+  - {seq: 1, role: markers, filename: assets/KR4d0385_001-WYG.markers.yaml, hash: 'sha256:75399a73dfb2f4975a9014bd6c619e9d4c6f312dc22fd1df746faae4e2cfd068'}
+  - {seq: 2, role: markers, filename: assets/KR4d0385_002-WYG.markers.yaml, hash: 'sha256:16a18723581791c8488a520394357ae3fe5a65549d7855f179e7e78972dd228f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4d0385_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 451
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4d0385_WYG_000-3a
+    span:
+    - body
+    - 451
+    - 868
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4d0385_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 7089
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4d0385_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 4756
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:f3e397799887309d8bef9f6df03483721dedea85aecd247790b9d94b6529e61b
